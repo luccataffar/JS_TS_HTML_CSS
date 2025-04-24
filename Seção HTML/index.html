@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-BR"> 
-    <head>
-        <meta charset="utf-8">
-        <title>Meu documento de testes</title>
-    </head>
+<html lang="pt-BR">
 
-    <body>
-        <h1>Olá mundo</h1>
-        <p>Teste de texto bonito</p>
-    </body>
+<head>
+    <title>Meu documento de testes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            background-color: rgb(212, 212, 184);
+        }
+
+        /* Para chamar um id */
+        #cabecalho_dois {
+            background-color: rgb(200, 100, 100)
+        }
+
+        /* Para falar sobre uma class */
+        .fundo_vermelho {
+            background-color: crimson;
+        }
+
+        .div_a1 {
+            color: blueviolet;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HEADER</h1>
+        <nav>
+            <ul>
+                <li>pagina 1</li>
+                <li>pagina 2</li>
+                <li>pagina 3</li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="cabecalho_um" class="fundo_vermelho">
+        Olá mundo
+    </h1>
+    <h1 id="cabecalho_dois">Teste de texto bonito</h1>
+    <p>Lorem ipsum dolor, <b>amet consectetur adipisicing elit.</b>Aliquid itaque molestiae <del>ABACATE</del>
+        <u>accusantium</u>.<br> Rem, <i><q>laudantium a libero vel tempora unde provident explicabo</q></i> quod cumque
+        molestias enim voluptatum eveniet veniam dignissimos numquam!
+    </p>
+    <!--Para abrir em uma nova aba, use o target="_blank"-->
+    <p>Teste de texto com <a
+            href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/24624900#content"
+            target="_blank">link para o curso</a></p>
+    <img class="in_text_img" src="eumassinha.jpg" alt="eu de massinha" width="500" height="300">
+    <hr>
+    <p>2<sup>2</sup> H<sub>2</sub>O</p>
+    <hr>
+    <pre>
+            <code>
+            print('hello world)
+            if x>y:
+                print('meu Deus')
+            </code>
+        </pre>
+    <hr>
+    <div class="div_a1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius quaerat nostrum distinctio veritatis, dolor consequuntur quas error amet iusto impedit in deserunt libero modi quo cumque odit repellendus fugit.
+        </p>
+        <ul>
+            <li>Botao 1</li>
+            <li>Botao 2</li>
+            <li>Botao 3</li>
+        </ul>
+        <article>
+            <h2>Como usar a tag &lt;article&gt; no HTML</h2>
+            <p>A tag <code>&lt;article&gt;</code> é usada para conteúdos independentes, como este aqui.</p>
+            <p>Ela melhora a semântica e a estrutura do seu site.</p>
+        </article>
+    </div>
+
+    <section>
+        <h1>SEÇÃO FEMININA</h1>
+        <p>
+            Fazendo uma section
+        </p>
+    </section>
+
+</body>
+
 </html>
