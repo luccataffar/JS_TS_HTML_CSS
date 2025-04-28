@@ -6,10 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        h1 {
-            background-color: rgb(212, 212, 184);
-        }
-
         /* Para chamar um id */
         #cabecalho_dois {
             background-color: rgb(200, 100, 100)
@@ -24,13 +20,29 @@
             color: blueviolet;
             font-size: 30px;
         }
+
+        #heading_bar {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 15px;
+            background-color: darkorange;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #heading_bar nav {
+            margin-right: 30px;
+            background-color: rgba(0, 0, 0, 0.381);
+        }
+
+
     </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>HEADER</h1>
+    <header id="heading_bar">
+        <h1>MEU LOGOTIPO</h1>
         <nav>
             <ul>
                 <li>pagina 1</li>
@@ -77,9 +89,9 @@
             dolor consequuntur quas error amet iusto impedit in deserunt libero modi quo cumque odit repellendus fugit.
         </p>
         <ul>
-            <li>Botao 1</li>
-            <li>Botao 2</li>
-            <li>Botao 3</li>
+            <li>Lista 1</li>
+            <li>Lista 2</li>
+            <li>Lista 3</li>
         </ul>
         <article>
             <h2>Como usar a tag &lt;article&gt; no HTML</h2>
@@ -89,7 +101,7 @@
     </div>
 
     <section>
-        <h1>SEÇÃO FEMININA</h1>
+        <h1 class="secao_feminina">SEÇÃO FEMININA</h1>
         <p>
             Fazendo uma section
         </p>
